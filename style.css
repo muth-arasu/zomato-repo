@@ -61,6 +61,7 @@ border: 3px solid aqua;
 
 .hero__container{
     max-width: 100%;
+    margin-top: 20px;
     padding: 0 20px;
 }
 .hero__image__container{
@@ -75,7 +76,36 @@ border: 3px solid aqua;
     font-size: 30px;
     margin: 20px 0;
 }
+
+.explore__menu__text{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.food__card__image__container {
+    width: 100%;
+}
+.food__card__image{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.food__card__description{
+    padding: 15px;
+}
+.food__card{
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+
+
+
+
 @media (min-width: 768px) {
+
     .navbar{
         justify-content: space-between;
         padding: 10px 30px;
@@ -85,9 +115,17 @@ border: 3px solid aqua;
         flex-direction: row-reverse;
         align-items: center;
         margin-top: 20px;
-
-
     }
+    .explore__menu__lists{
+        
+        display: flex;
+        gap: 15px;
+        
+        
+    }
+   
+    
+    
 
     }
 @media (min-width: 1020px) {
@@ -111,6 +149,8 @@ border: 3px solid aqua;
     .hero__image{
         height: 400px;
     }
+
+   
 }
 
     
